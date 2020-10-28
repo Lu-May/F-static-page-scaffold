@@ -1,6 +1,7 @@
 header, main {
   border: 1px solid red;
 }
+
 body,
 html {
   margin: 0;
@@ -20,4 +21,34 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header-title {
+  margin: 0px 0px 0px 200px;
+  padding: 0px;
+  color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+	justify-content: center;
+  background-color: #3b5998;
+}
+
+.button {
+  margin-left: 10px;
+  color: white;
+  background-color: #42b72a;
+  border: 1px solid #42b72a;
+}
+
+.header-select {
+  margin-left: auto;
+  margin-right: 200px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  border: 1px solid #3b5998;
+  background-color: #3b5998;
 }
