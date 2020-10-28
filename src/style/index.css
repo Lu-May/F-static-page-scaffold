@@ -31,6 +31,7 @@ ul {
 
 .header {
   display: flex;
+  height: 60px;
   align-items: center;
 	justify-content: center;
   background-color: #3b5998;
@@ -51,4 +52,9 @@ ul {
   color: white;
   border: 1px solid #3b5998;
   background-color: #3b5998;
+}
+
+.main {
+  margin-left: 200px;
+  margin-right: 200px;
 }
